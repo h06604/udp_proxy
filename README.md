@@ -21,6 +21,8 @@ https://drive.google.com/drive/folders/1xokqtxLMv7QU7a2I9mBvoUG62YIgdr-5?usp=sha
 ``chmod +x udp_proxy``
 6. Program execution with the following command.
 ``./udp_proxy -p 10080 -s 127.0.0.1:11111 -y 5 -d 50``
+* Compile
+``gcc -Wall udp_proxy.c -o udp_proxy -levent -lm``
 
 ## Mac
 1. Press Command+Space and type ***Terminal*** and press ***enter/return*** key.
